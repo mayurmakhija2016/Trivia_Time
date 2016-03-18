@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Trivia Time</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ques1">Ques1</string>
+    <string name="title_activity_ques2">Ques2</string>
+    <string name="title_activity_ques3">Ques3</string>
+    <string name="title_activity_ques4">Ques4</string>
+    <string name="title_activity_ques5">Ques5</string>
+    <string name="title_activity_results">ResultsActivity</string>
+</resources>

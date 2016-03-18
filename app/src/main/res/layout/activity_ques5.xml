@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="example.com.triviatime.Ques1">
+
+    <TextView
+        android:text="Q5. Which country does Robert Lewandowski play for?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:id="@+id/ques5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup5"
+        android:layout_below="@id/ques5">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Germany"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:checked="false"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Poland"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:checked="false"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="France"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:checked="false"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Italy"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:checked="false"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Finish"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:id="@+id/next5"/>
+
+</RelativeLayout>
